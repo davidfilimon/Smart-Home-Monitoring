@@ -2,6 +2,8 @@
 
 Course prototype pentru detectarea anomaliilor de rutina zilnica folosind date ambientale smart-home, cu accent pe **data minimization**, **privacy-by-design**, **false-positive analysis** si **caregiver notification policy**.
 
+**Autori:** Filimon David-Christian; Pintescu Sebastian
+
 Proiectul foloseste date publice de tip CASAS/Aruba sau CSV-uri similare cu evenimente smart-home.
 
 ---
