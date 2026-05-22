@@ -1,0 +1,28 @@
+{
+  "time_windows": {
+    "night_start_hour": 0,
+    "night_end_hour": 5,
+    "morning_start_hour": 6,
+    "morning_end_hour": 11,
+    "day_start_hour": 12,
+    "day_end_hour": 17,
+    "evening_start_hour": 18,
+    "evening_end_hour": 23
+  },
+  "rule_model": {
+    "upper_percentile": 95,
+    "lower_percentile": 5,
+    "severe_inactivity_minutes": 720
+  },
+  "iforest": {
+    "contamination": 0.08,
+    "random_state": 42
+  },
+  "sensor_groups": {
+    "bedroom": [],
+    "kitchen": [],
+    "bathroom": [],
+    "living_room": [],
+    "entrance": []
+  }
+}
