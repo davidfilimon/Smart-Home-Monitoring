@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-python scripts/03_generate_demo_data.py
-python scripts/01_prepare_dataset.py --input data/raw/demo_events.csv
+python scripts/01_prepare_dataset.py --input data/raw/aruba.csv
+python scripts/04_make_synthetic_labels.py
 python scripts/02_train_evaluate.py
-streamlit run dashboard/app.py
+python -m streamlit run dashboard/app.py

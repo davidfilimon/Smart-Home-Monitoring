@@ -5,14 +5,14 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2010-11-07,0,0.0,normal,0,0.19967951667846645,0,normal,0,Normal routine. No notification.
 2010-11-08,0,0.0,normal,0,0.058218943058913245,0,normal,0,Normal routine. No notification.
 2010-11-09,0,0.0,normal,0,0.28494683661582937,0,normal,0,Normal routine. No notification.
-2010-11-10,1,0.4,inactivity,0,0.3637354387740695,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
+2010-11-10,1,0.6,inactivity;missed_daytime_activity,0,0.3637354387740695,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
 2010-11-11,0,0.0,normal,0,0.06655362239241115,0,normal,0,Normal routine. No notification.
 2010-11-12,0,0.0,normal,0,0.32127727961921515,0,normal,0,Normal routine. No notification.
 2010-11-13,0,0.0,normal,0,0.14440213721516246,0,normal,0,Normal routine. No notification.
 2010-11-14,1,0.4,possible_sensor_failure_or_missing_data,0,0.12283322466016666,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2010-11-15,0,0.0,normal,0,0.08107140967119346,0,normal,0,Normal routine. No notification.
 2010-11-16,1,0.2,unusual_night_movement,0,0.25696914990497294,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
-2010-11-17,1,0.8,inactivity;possible_sensor_failure_or_missing_data,0,0.4775103425493092,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2010-11-17,1,1.0,inactivity;missed_daytime_activity;possible_sensor_failure_or_missing_data,0,0.4775103425493092,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2010-11-18,0,0.0,normal,0,0.06155525961234337,0,normal,0,Normal routine. No notification.
 2010-11-19,1,0.2,possible_sensor_failure_or_missing_data,1,0.5369207569636452,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2010-11-20,0,0.0,normal,0,0.22217953008726854,0,normal,0,Normal routine. No notification.
@@ -27,7 +27,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2010-11-29,0,0.0,normal,0,0.05530241145390341,0,normal,0,Normal routine. No notification.
 2010-11-30,0,0.0,normal,0,0.2522430608690307,0,normal,0,Normal routine. No notification.
 2010-12-01,0,0.0,normal,0,0.06622395176701514,0,normal,0,Normal routine. No notification.
-2010-12-02,0,0.0,normal,0,0.19915097085340758,0,normal,0,Normal routine. No notification.
+2010-12-02,1,0.2,missed_daytime_activity,0,0.19915097085340758,0,normal,0,Normal routine. No notification.
 2010-12-03,0,0.0,normal,0,0.01644589643772686,0,normal,0,Normal routine. No notification.
 2010-12-04,0,0.0,normal,0,0.11483503261031776,0,normal,0,Normal routine. No notification.
 2010-12-05,0,0.0,normal,0,0.39928186929988607,0,normal,0,Normal routine. No notification.
@@ -40,7 +40,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2010-12-12,0,0.0,normal,0,0.05085546059711012,0,normal,0,Normal routine. No notification.
 2010-12-13,0,0.0,normal,0,0.22448578523429824,0,normal,0,Normal routine. No notification.
 2010-12-14,0,0.0,normal,0,0.1284390026974444,0,normal,0,Normal routine. No notification.
-2010-12-15,0,0.0,normal,0,0.32601965275463535,0,normal,0,Normal routine. No notification.
+2010-12-15,1,0.2,missed_evening_activity,0,0.32601965275463535,0,normal,0,Normal routine. No notification.
 2010-12-16,0,0.0,normal,0,0.021506741290171317,0,normal,0,Normal routine. No notification.
 2010-12-17,0,0.0,normal,0,0.3687724501486931,0,normal,0,Normal routine. No notification.
 2010-12-18,0,0.0,normal,0,0.4192615323909497,0,normal,0,Normal routine. No notification.
@@ -49,7 +49,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2010-12-21,1,0.2,missed_morning_routine,0,0.16913257470837928,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2010-12-22,0,0.0,normal,0,0.07266849135184626,0,normal,0,Normal routine. No notification.
 2010-12-23,0,0.0,normal,0,0.2951410435996755,0,normal,0,Normal routine. No notification.
-2010-12-24,1,0.4,inactivity,0,0.41757203929094777,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
+2010-12-24,1,0.6,inactivity;missed_evening_activity,0,0.41757203929094777,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
 2010-12-25,0,0.0,normal,0,0.09164584331150948,0,normal,0,Normal routine. No notification.
 2010-12-26,0,0.0,normal,0,0.04736512909570091,0,normal,0,Normal routine. No notification.
 2010-12-27,0,0.0,normal,0,0.5087497856549488,0,normal,0,Normal routine. No notification.
@@ -62,13 +62,13 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-01-03,0,0.0,normal,0,0.06390420278310817,0,normal,0,Normal routine. No notification.
 2011-01-04,0,0.0,normal,0,0.3826910077654701,0,normal,0,Normal routine. No notification.
 2011-01-05,0,0.0,normal,0,0.022812353909919675,0,normal,0,Normal routine. No notification.
-2011-01-06,1,0.4,possible_sensor_failure_or_missing_data,0,0.23506840107196095,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-01-06,1,0.6,missed_daytime_activity;possible_sensor_failure_or_missing_data,0,0.23506840107196095,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-01-07,0,0.0,normal,0,0.10128320762124324,0,normal,0,Normal routine. No notification.
 2011-01-08,0,0.0,normal,0,0.05449243525357797,0,normal,0,Normal routine. No notification.
 2011-01-09,0,0.0,normal,0,0.11579346741211675,0,normal,0,Normal routine. No notification.
-2011-01-10,1,0.4,possible_sensor_failure_or_missing_data,0,0.2930287630048933,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-01-10,1,0.6,missed_daytime_activity;possible_sensor_failure_or_missing_data,0,0.2930287630048933,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-01-11,0,0.0,normal,0,0.080347756302181,0,normal,0,Normal routine. No notification.
-2011-01-12,0,0.0,normal,0,0.08610499983181735,0,normal,0,Normal routine. No notification.
+2011-01-12,1,0.2,missed_evening_activity,0,0.08610499983181735,0,normal,0,Normal routine. No notification.
 2011-01-13,0,0.0,normal,0,0.021203696110682513,0,normal,0,Normal routine. No notification.
 2011-01-14,0,0.0,normal,0,0.061350738312603126,0,normal,0,Normal routine. No notification.
 2011-01-15,0,0.0,normal,1,0.578442274662079,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
@@ -88,7 +88,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-01-29,0,0.0,normal,0,0.03935531664598092,0,normal,0,Normal routine. No notification.
 2011-01-30,0,0.0,normal,0,0.1275440995949271,0,normal,0,Normal routine. No notification.
 2011-01-31,0,0.0,normal,0,0.2305364932055971,0,normal,0,Normal routine. No notification.
-2011-02-01,1,0.2,unusual_night_movement,0,0.24675063811474598,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-02-01,1,0.4,missed_evening_activity;unusual_night_movement,0,0.24675063811474598,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-02-02,0,0.0,normal,0,0.17755282469020026,0,normal,0,Normal routine. No notification.
 2011-02-03,0,0.0,normal,0,0.2080745346059954,0,normal,0,Normal routine. No notification.
 2011-02-04,0,0.0,normal,0,0.051691214455282006,0,normal,0,Normal routine. No notification.
@@ -102,11 +102,11 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-02-12,0,0.0,normal,0,0.10019325087051267,0,normal,0,Normal routine. No notification.
 2011-02-13,0,0.0,normal,0,0.0821722844916231,0,normal,0,Normal routine. No notification.
 2011-02-14,0,0.0,normal,0,0.2638028973010436,0,normal,0,Normal routine. No notification.
-2011-02-15,0,0.0,normal,0,0.21697928940908232,0,normal,0,Normal routine. No notification.
+2011-02-15,1,0.2,missed_evening_activity,0,0.21697928940908232,0,normal,0,Normal routine. No notification.
 2011-02-16,0,0.0,normal,0,0.07543630728644989,0,normal,0,Normal routine. No notification.
 2011-02-17,0,0.0,normal,0,0.05476989468571238,0,normal,0,Normal routine. No notification.
 2011-02-18,0,0.0,normal,0,0.3916549594154152,0,normal,0,Normal routine. No notification.
-2011-02-19,1,1.0,inactivity;possible_sensor_failure_or_missing_data,1,0.9690246127870497,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-02-19,1,1.0,inactivity;missed_daytime_activity;possible_sensor_failure_or_missing_data,1,0.9690246127870497,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-02-20,0,0.0,normal,1,0.6186692270309694,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-02-21,1,0.2,missed_morning_routine,0,0.14855011683356095,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-02-22,0,0.0,normal,0,0.30272076995702296,0,normal,0,Normal routine. No notification.
@@ -114,7 +114,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-02-24,0,0.0,normal,0,0.12221650046359923,0,normal,0,Normal routine. No notification.
 2011-02-25,1,0.4,inactivity,0,0.2803364748243054,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
 2011-02-26,0,0.0,normal,0,0.3114217846030909,0,normal,0,Normal routine. No notification.
-2011-02-27,0,0.0,normal,0,0.15715454951045696,0,normal,0,Normal routine. No notification.
+2011-02-27,1,0.2,missed_evening_activity,0,0.15715454951045696,0,normal,0,Normal routine. No notification.
 2011-02-28,0,0.0,normal,0,0.02494927263453998,0,normal,0,Normal routine. No notification.
 2011-03-01,0,0.0,normal,0,0.30559154006768563,0,normal,0,Normal routine. No notification.
 2011-03-02,0,0.0,normal,1,0.5705567797453751,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
@@ -131,14 +131,14 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-03-13,0,0.0,normal,0,0.17069516834147536,0,normal,0,Normal routine. No notification.
 2011-03-14,0,0.0,normal,0,0.250873472040472,0,normal,0,Normal routine. No notification.
 2011-03-15,0,0.0,normal,0,0.39426620714537725,0,normal,0,Normal routine. No notification.
-2011-03-16,0,0.0,normal,0,0.3604546807406284,0,normal,0,Normal routine. No notification.
+2011-03-16,1,0.2,missed_evening_activity,0,0.3604546807406284,0,normal,0,Normal routine. No notification.
 2011-03-17,0,0.0,normal,0,0.13215993097386117,0,normal,0,Normal routine. No notification.
 2011-03-18,0,0.0,normal,0,0.11957393681457758,0,normal,0,Normal routine. No notification.
 2011-03-19,0,0.0,normal,0,0.34501919381500645,0,normal,0,Normal routine. No notification.
 2011-03-20,1,0.2,unusual_night_movement,0,0.2177980033318558,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-03-21,1,0.2,missed_morning_routine,0,0.3095059841514986,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-03-22,1,0.2,missed_morning_routine,0,0.4587133092784514,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
-2011-03-23,1,0.4,missed_morning_routine;unusual_night_movement,0,0.5217672197201265,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-03-23,1,0.6,missed_evening_activity;missed_morning_routine;unusual_night_movement,0,0.5217672197201265,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-03-24,0,0.0,normal,0,0.11190027562359953,0,normal,0,Normal routine. No notification.
 2011-03-25,1,0.2,unusual_night_movement,0,0.450090493833795,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-03-26,0,0.0,normal,1,0.5838902643118444,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
@@ -151,31 +151,31 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-04-02,1,0.2,missed_morning_routine,1,0.55863703962192,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-04-03,0,0.0,normal,0,0.11228475271666882,0,normal,0,Normal routine. No notification.
 2011-04-04,0,0.0,normal,0,0.2643664158599664,0,normal,0,Normal routine. No notification.
-2011-04-05,1,0.4,possible_sensor_failure_or_missing_data,0,0.4252746138761625,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-04-05,1,0.6,missed_daytime_activity;possible_sensor_failure_or_missing_data,0,0.4252746138761625,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-04-06,0,0.0,normal,0,0.07761396946158926,0,normal,0,Normal routine. No notification.
-2011-04-07,1,1.0,inactivity;missed_morning_routine;severe_inactivity,1,0.8035561455270368,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-04-07,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;severe_inactivity,1,0.8035561455270368,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
 2011-04-08,0,0.0,normal,0,0.4307343848959704,0,normal,0,Normal routine. No notification.
 2011-04-09,0,0.0,normal,0,0.0712064990996718,0,normal,0,Normal routine. No notification.
 2011-04-10,0,0.0,normal,0,0.2745033396975717,0,normal,0,Normal routine. No notification.
 2011-04-11,0,0.0,normal,0,0.07437813314423156,0,normal,0,Normal routine. No notification.
 2011-04-12,0,0.0,normal,1,0.559197835333927,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
-2011-04-13,1,1.0,inactivity;missed_morning_routine;severe_inactivity,1,0.6053789523888037,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-04-13,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;severe_inactivity,1,0.6053789523888037,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
 2011-04-14,0,0.0,normal,0,0.17248355664522386,0,normal,0,Normal routine. No notification.
 2011-04-15,0,0.0,normal,1,0.6683020061447317,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-04-16,0,0.0,normal,0,0.4409340572913442,0,normal,0,Normal routine. No notification.
 2011-04-17,0,0.0,normal,0,0.2272153661159627,0,normal,0,Normal routine. No notification.
 2011-04-18,0,0.0,normal,0,0.21609351660929446,0,normal,0,Normal routine. No notification.
-2011-04-19,1,1.0,inactivity;missed_morning_routine;severe_inactivity,1,0.7874154264573766,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-04-19,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;severe_inactivity,1,0.7874154264573766,1,synthetic_severe_inactivity,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
 2011-04-20,0,0.0,normal,0,0.07299087497664397,0,normal,0,Normal routine. No notification.
 2011-04-21,1,0.2,missed_morning_routine,0,0.10295943800496196,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-04-22,1,0.4,inactivity,0,0.18311234187336373,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
-2011-04-23,0,0.0,normal,0,0.3638353334122382,0,normal,0,Normal routine. No notification.
-2011-04-24,1,0.4,inactivity,0,0.4512262767027079,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
+2011-04-23,1,0.2,missed_daytime_activity,0,0.3638353334122382,0,normal,0,Normal routine. No notification.
+2011-04-24,1,0.8,inactivity;missed_daytime_activity;missed_evening_activity,0,0.4512262767027079,0,normal,2,Routine anomaly detected. A soft caregiver check is recommended.
 2011-04-25,1,0.2,unusual_night_movement,0,0.4339660516191916,1,synthetic_unusual_night_movement,1,Minor routine deviation detected. Dashboard review recommended.
-2011-04-26,0,0.0,normal,0,0.5309347811021237,0,normal,0,Normal routine. No notification.
+2011-04-26,1,0.2,missed_daytime_activity,0,0.5309347811021237,0,normal,0,Normal routine. No notification.
 2011-04-27,0,0.0,normal,0,0.24184702204616668,0,normal,0,Normal routine. No notification.
 2011-04-28,0,0.0,normal,0,0.26157852235010565,0,normal,0,Normal routine. No notification.
-2011-04-29,1,0.2,unusual_night_movement,0,0.3740437170983451,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
+2011-04-29,1,0.4,missed_daytime_activity;unusual_night_movement,0,0.3740437170983451,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-04-30,1,0.4,missed_morning_routine;unusual_night_movement,0,0.3974667067723117,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-05-01,1,0.2,unusual_night_movement,0,0.5044339879380347,1,synthetic_unusual_night_movement,1,Minor routine deviation detected. Dashboard review recommended.
 2011-05-02,0,0.0,normal,0,0.421505293484392,0,normal,0,Normal routine. No notification.
@@ -192,7 +192,7 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-05-13,0,0.0,normal,0,0.4874130989414955,0,normal,0,Normal routine. No notification.
 2011-05-14,0,0.0,normal,0,0.1479009842454788,0,normal,0,Normal routine. No notification.
 2011-05-15,0,0.0,normal,0,0.17120483708516562,0,normal,0,Normal routine. No notification.
-2011-05-16,0,0.0,normal,0,0.2120376293998254,0,normal,0,Normal routine. No notification.
+2011-05-16,1,0.2,missed_daytime_activity,0,0.2120376293998254,0,normal,0,Normal routine. No notification.
 2011-05-17,0,0.0,normal,0,0.32867506149152903,0,normal,0,Normal routine. No notification.
 2011-05-18,1,0.2,missed_morning_routine,0,0.1268680721868751,1,synthetic_missed_morning_routine,1,Minor routine deviation detected. Dashboard review recommended.
 2011-05-19,0,0.0,normal,0,0.5007572501858613,0,normal,0,Normal routine. No notification.
@@ -206,16 +206,16 @@ date,rule_is_anomaly,rule_anomaly_score,rule_anomaly_type,iforest_is_anomaly,ifo
 2011-05-27,0,0.0,normal,0,0.18550053881141368,0,normal,0,Normal routine. No notification.
 2011-05-28,0,0.0,normal,0,0.105267925566261,0,normal,0,Normal routine. No notification.
 2011-05-29,0,0.0,normal,1,0.6874497202948244,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
-2011-05-30,1,1.0,inactivity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,0.9713447564155105,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-05-30,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,0.9713447564155105,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
 2011-05-31,1,0.2,unusual_night_movement,1,0.6196112747647207,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-06-01,0,0.0,normal,0,0.475382581853963,0,normal,0,Normal routine. No notification.
 2011-06-02,0,0.0,normal,0,0.032075227685788625,0,normal,0,Normal routine. No notification.
-2011-06-03,0,0.0,normal,0,0.412777651963854,0,normal,0,Normal routine. No notification.
+2011-06-03,1,0.2,missed_daytime_activity,0,0.412777651963854,0,normal,0,Normal routine. No notification.
 2011-06-04,0,0.0,normal,0,0.14912643720287846,0,normal,0,Normal routine. No notification.
-2011-06-05,1,1.0,inactivity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,1.0,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-06-05,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,1.0,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
 2011-06-06,1,0.2,unusual_night_movement,0,0.466901056139424,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-06-07,0,0.0,normal,0,0.28843561751905794,0,normal,0,Normal routine. No notification.
 2011-06-08,1,0.2,unusual_night_movement,0,0.36145248628336585,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
 2011-06-09,0,0.0,normal,0,0.1215795845800046,0,normal,0,Normal routine. No notification.
 2011-06-10,1,0.2,unusual_night_movement,1,0.6015072919224221,0,normal,1,Minor routine deviation detected. Dashboard review recommended.
-2011-06-11,1,1.0,inactivity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,0.9941643289752146,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
+2011-06-11,1,1.0,inactivity;missed_daytime_activity;missed_evening_activity;missed_morning_routine;possible_sensor_failure_or_missing_data;severe_inactivity,1,0.9941643289752146,1,synthetic_sensor_failure,3,Severe unusual inactivity detected compared to routine baseline. Urgent check recommended.
